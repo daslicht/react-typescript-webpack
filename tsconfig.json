@@ -1,6 +1,5 @@
 {
     "compilerOptions": {
-        "outDir": "./dist/",
         "sourceMap": true,
         "noImplicitAny": true,
         "module": "commonjs",
@@ -9,5 +8,8 @@
     },
     "files": [
         "./src/index.tsx"
-    ]
+    ],
+    "exclude": [
+    "node_modules"
+  ]
 }
