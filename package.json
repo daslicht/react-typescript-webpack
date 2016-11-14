@@ -1,0 +1,24 @@
+{
+  "name": "react-webpack-start",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Marc Wensauer",
+  "license": "ISC",
+  "dependencies": {
+    "@types/react": "^0.14.47",
+    "@types/react-dom": "^0.14.18",
+    "react": "^15.3.2",
+    "react-dom": "^15.3.2",
+    "typescript": "^2.2.0-dev.20161114",
+    "webpack": "^1.13.3",
+    "webpack-dev-server": "^1.16.2"
+  },
+  "devDependencies": {
+    "source-map-loader": "^0.1.5",
+    "ts-loader": "^1.2.0"
+  }
+}
